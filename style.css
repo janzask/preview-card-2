@@ -1,0 +1,101 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(233, 47%, 7%);
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1110px;
+    max-height: 446px;
+    background: #1B1937;
+    border-radius: 8px;
+}
+
+/*----MAIN----*/
+
+.main p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0em 8em 0em 5em;
+    opacity: 75%;
+}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 2em 2em 0.7em 2em;
+}
+
+span {
+    color: #AB5CDB;
+}
+
+.images {
+    background-color: #AB5CDB;
+}
+
+img {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    mix-blend-mode: multiply;
+    opacity: 75.11%;
+}
+
+/*----FOOTER----*/
+
+.footer {
+    display: flex;
+    margin-left: 4.5em;
+    margin-top: 4.4em;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.nummer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4em;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.nummer p {
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    opacity: 60%;
+}
